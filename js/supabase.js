@@ -1,0 +1,1 @@
+const SUPABASE_URL="PUT_URL_HERE"; const SUPABASE_ANON_KEY="PUT_KEY_HERE"; const sb=supabase.createClient(SUPABASE_URL,SUPABASE_ANON_KEY);

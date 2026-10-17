@@ -1,0 +1,1 @@
+async function load(){const {data}=await sb.from("products").select("*");document.getElementById("products").innerHTML=(data||[]).map(x=>`<div class=card><h3>${x.title}</h3><p>${x.price}</p></div>`).join("");} load();

@@ -1,0 +1,1 @@
+async function addProduct(){await sb.from("products").insert([{title:title.value,price:Number(price.value)}]);alert("تمت الإضافة");}

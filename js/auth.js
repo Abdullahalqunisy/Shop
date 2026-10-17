@@ -1,0 +1,1 @@
+async function discordLogin(){await sb.auth.signInWithOAuth({provider:"discord",options:{redirectTo:window.location.origin}});}
